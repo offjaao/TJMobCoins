@@ -6,7 +6,7 @@ import org.bukkit.entity.EntityType;
 
 public class MobCoinsManager extends Manager<MobCoins> {
 
-    public MobCoins get(EntityType type) {
+    public MobCoins getByType(EntityType type) {
         return get(entityType -> entityType.getEntityType().equals(type))
                 .orElse(null);
     }

@@ -22,7 +22,7 @@ public class MobListener implements Listener {
         LivingEntity entity = event.getEntity();
         EntityType type = entity.getType();
         Player player = entity.getKiller();
-        MobCoins mobCoins = MANAGER.get(type);
+        MobCoins mobCoins = MANAGER.getByType(type);
 
         if (mobCoins == null) return;
 
