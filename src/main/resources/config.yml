@@ -1,0 +1,10 @@
+Message: 'You received {money} coins for killing a {type}.'
+
+Entities:
+  COW:
+    Type: 'COW'
+    Value: 30
+
+  PIG:
+    Type: 'PIG'
+    Value: 15

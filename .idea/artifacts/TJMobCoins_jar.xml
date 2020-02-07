@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TJMobCoins:jar">
+    <output-path>$PROJECT_DIR$/../../Minecraft/Servidores/Spigot-1.8.8/plugins</output-path>
+    <root id="archive" name="TJMobCoins.jar">
+      <element id="module-output" name="TJMobCoins" />
+    </root>
+  </artifact>
+</component>
