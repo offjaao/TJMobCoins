@@ -1,4 +1,11 @@
-Message: 'You received {money} coins for killing a {type}.'
+MySQL:
+  user: 'root'
+  database: 'minecraft'
+  password: ''
+  host: 'localhost'
+
+Messages:
+  coins_receid: '&aYou received &d{money}&a mobcoins for killing a &d{type}&a.'
 
 Entities:
   COW:

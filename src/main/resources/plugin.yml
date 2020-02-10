@@ -2,7 +2,5 @@ name: TJMobCoins
 version: ${project.version}
 main: me.thejaao.mobcoins.TJMobCoins
 authors: [jaao]
-depend:
-  - Vault
-loadbefore:
-  - Vault
+commands:
+  mobcoins:

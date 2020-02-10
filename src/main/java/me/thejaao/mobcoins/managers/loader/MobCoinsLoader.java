@@ -27,5 +27,6 @@ public class MobCoinsLoader {
 
             mobCoinsManager.getElements().add(new MobCoins(EntityType.valueOf(type), value));
         }
+        System.out.println("[TJMobCoins] Loaded " + mobCoinsManager.getElements().size() + " mobs.");
     }
 }

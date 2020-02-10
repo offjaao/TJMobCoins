@@ -1,4 +1,4 @@
-package me.thejaao.mobcoins.model;
+package me.thejaao.mobcoins.models;
 
 import com.google.common.collect.Lists;
 
