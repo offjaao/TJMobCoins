@@ -4,8 +4,7 @@ MySQL:
   password: ''
   host: 'localhost'
 
-Messages:
-  coins_receid: '&aYou received &d{money}&a mobcoins for killing a &d{type}&a.'
+Message: '&aYou received &d{money}&a mobcoins for killing a &d{type}&a.'
 
 Entities:
   COW:
